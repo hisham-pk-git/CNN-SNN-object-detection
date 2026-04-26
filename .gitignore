@@ -216,3 +216,44 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------- OS / Editor ----------
+.DS_Store
+.vscode/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ---------- Virtual env ----------
+.venv/
+venv/
+ENV/
+
+# ---------- Training outputs (usually large) ----------
+runs/
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ---------- Logs / temp ----------
+*.log
+*.tmp
+
+# ---------- Data (recommended: don't upload datasets unless allowed) ----------
+data/
+datasets/
+*.zip
+*.tar.gz
+*.csv
+
+# ---------- Keep small report assets ----------
+# (Put screenshots/figures under report_assets/ so they are tracked)
+!report_assets/
+!report_assets/**
