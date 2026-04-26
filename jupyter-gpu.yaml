@@ -11,7 +11,7 @@ spec:
       args:
         - |
           pip install -U pip
-          pip install jupyterlab snntorch torchvision torchaudio numpy matplotlib tqdm scikit-learn ultralytics opencv-python pycocotools
+          pip install jupyterlab
           jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
       ports:
         - containerPort: 8888

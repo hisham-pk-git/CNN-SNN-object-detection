@@ -1,0 +1,18 @@
+{
+  "config": {
+    "seed": 42,
+    "batch_size": 128,
+    "epochs": 50,
+    "lr": 0.003,
+    "weight_decay": 0.01,
+    "val_split": 0.1,
+    "num_workers": 2,
+    "dropout": 0.25,
+    "label_smoothing": 0.1,
+    "amp": true
+  },
+  "best_val_acc": 0.9255859375,
+  "test_loss": 0.7063119735898851,
+  "test_acc": 0.9162381329113924,
+  "ms_per_image": 0.18798520187488066
+}
