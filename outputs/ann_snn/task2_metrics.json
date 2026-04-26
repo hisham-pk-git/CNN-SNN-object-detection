@@ -1,0 +1,10 @@
+{
+  "T": 200,
+  "beta": 0.99,
+  "threshold": 1.0,
+  "test_acc": 0.6829,
+  "avg_stable_steps": 31.9754,
+  "spikes_per_inference": 5479564.0629,
+  "avg_firing_rate": 0.0005958949643848309,
+  "elapsed_test_seconds": 178.03842275601346
+}
