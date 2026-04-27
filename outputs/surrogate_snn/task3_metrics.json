@@ -1,0 +1,36 @@
+{
+  "T": 50,
+  "epochs": 0,
+  "batch_size": 128,
+  "lr": 0.0005,
+  "beta": 0.95,
+  "threshold": 1.5,
+  "init_from_cnn": true,
+  "cnn_ckpt": "outputs/cnn/cnn_best.pt",
+  "surrogate": "fast_sigmoid(slope=25)",
+  "loss": "CrossEntropy",
+  "optimizer": "Adam",
+  "model_params": 3249994,
+  "best_val_acc": -1.0,
+  "test_loss": 9.942851640001129,
+  "test_acc": 0.7283425632911392,
+  "spikes_per_image": 746921.4976,
+  "global_firing_rate": 0.06498133853006681,
+  "layer_firing_rate": {
+    "l1": 0.15508355114746095,
+    "l2": 0.02001816387939453,
+    "l3": 0.05760907464599609,
+    "l4": 0.015707960693359373,
+    "l5": 0.05847006689453125,
+    "l6": 0.000684616455078125,
+    "l7": 0.17836134765625
+  },
+  "approx_membrane_mem_mb_per_sample": 43.84765625,
+  "spike_sparsity": 0.9350186614699332,
+  "history": {
+    "train_loss": [],
+    "train_acc": [],
+    "val_loss": [],
+    "val_acc": []
+  }
+}
